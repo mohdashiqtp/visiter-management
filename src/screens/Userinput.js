@@ -28,7 +28,9 @@ function Userinput() {
 
     window.localStorage.setItem('user', JSON.stringify(user));
 
-    if (data.name === user.name && data.dob === user.dob && data.number === user.number) {
+   if(data){
+     
+      if (data.name === user.name && data.dob === user.dob && data.number === user.number) {
 
       alert('user already exist')
 
@@ -41,6 +43,11 @@ function Userinput() {
       window.location.assign('/')
 
     }
+   }else{
+     
+     window.location.assing('/')
+   }
+
 
   }
 
