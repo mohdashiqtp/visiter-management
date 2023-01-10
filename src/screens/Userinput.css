@@ -1,0 +1,42 @@
+.Userinput {
+    height: 600px;
+    width: 100%;
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    position: 'absolute';
+    border: 1px solid rgba(221, 217, 217, 0.543);
+    height: 550px;
+    border-radius: 20px;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.input{
+    padding: 20px;
+    border: 1px solid rgba(221, 217, 217, 0.543);
+    border-radius: 20px;
+    width: 90%;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.header{
+    margin-top: 50px;
+}
+input{
+    border: 1px solid rgba(221, 217, 217, 0.543);
+    height: 30px;
+}
+button{
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: azure;
+    background: black;
+}

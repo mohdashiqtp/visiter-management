@@ -1,0 +1,12 @@
+.buttons_div{
+
+    display: flex;
+    align-items: center;
+
+}
+.button{
+
+    margin: 5px;
+    padding: 10px;
+    cursor: pointer;
+}
